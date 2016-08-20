@@ -1,0 +1,44 @@
+baseurl = "http://mattalleman.com"
+languageCode = "en-us"
+title = "Matt Alleman"
+theme = "hugo-octopress"
+
+[indexes]
+    tag = "tags"
+    category = "categories"
+
+[params]
+    Author="Matt Alleman"
+    
+    #disqus code for comments
+    disqusShortname = "mattalleman"
+
+    searchEngineURL = "https://www.google.com/search"
+    subtitle = "A Method to My Madness"
+    
+    #google analyics
+    googleAnalytics = "UA-31015272-1"
+
+    rss = true
+    github = "https://github.com/rmalleman/"
+    twitter = "https://twitter.com/mattinsaltlake/"
+    stackoverflow = "https://stackoverflow.com/users/2023482/matt"
+    linkedin = ""
+    googleplus = "https://plus.google.com/108402076392231720438/posts"
+    facebook = ""
+    youtube = ""
+
+    sidebarMenuEnabled = true
+
+    sidebarRecentLimit = 10
+
+[blackfriday]
+  hrefTargetBlank = true # open the external links in a new window
+  fractions = false
+
+
+[[menu.main]]
+  Name = "Blog"
+  URL = "/"
+  weight = -10
+
