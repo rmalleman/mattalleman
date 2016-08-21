@@ -34,9 +34,9 @@ CPU MHz:               800.0000
 <br />
 It's still running at the minimum frequency, clearly the throttling isn't working correctly.
 
-After a little bit of googling I figured out that I needed to install the proprietary intel microde driver.
+After a little bit of googling I figured out that I needed to install the proprietary intel microcode driver.
 ~~~
-$ sudo apt-get install intel-microde
+$ sudo apt-get install intel-microcode
 ~~~
 <br />
 
