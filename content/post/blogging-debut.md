@@ -12,3 +12,4 @@ If you would like to get in contact with me feel free to email me or reach me vi
     
 Regards,<br /> 
 Matt Alleman
+<!--more-->

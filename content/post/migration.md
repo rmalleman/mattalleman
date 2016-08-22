@@ -5,3 +5,4 @@ title = "migration"
 +++
 
 Octopress development seems to be dead so I moved what embarrassingly little content I have over to [Hugo](https://gohugo.io/).  I liked the way octopress looked so I found a [copycat theme](https://github.com/parsiya/Hugo-Octopress).
+<!--more-->

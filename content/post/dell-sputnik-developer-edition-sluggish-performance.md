@@ -5,7 +5,6 @@ categories = ["linux", "ubuntu", "tech-support"]
 +++
 
 After upgrading to Ubuntu 16.04 on my 2013 [Dell Sputnik Developer Edition](https://www.dell.com/developers) ultrabook I was experiencing extremely sluggish performance.  It has an 17 processor and 8 GB of RAM but sometimes just loading up 2 or 3 tabs in Firefox would slow it to a halt.  I knew I wasn't running anything incredibly memory intensive so I figured the problem had to be cpu bound.
-<!-- more -->
 I checked out lscpu to see what frequency the cpu was running at.
 ~~~
 $ lscpu | grep "CPU"
@@ -41,3 +40,4 @@ $ sudo apt-get install intel-microcode
 <br />
 
 After installing that package the CPU throttling started working correctly and the sluggishness I was experiencing all went away.
+<!--more-->
