@@ -1,4 +1,4 @@
-baseurl = "http://mattalleman.com"
+baseurl = "https://mattalleman.com"
 languageCode = "en-us"
 title = "Matt Alleman"
 theme = "hugo-octopress"
@@ -31,6 +31,8 @@ theme = "hugo-octopress"
     sidebarMenuEnabled = true
 
     sidebarRecentLimit = 10
+    
+    tableOfContents = true
 
 [blackfriday]
   hrefTargetBlank = true # open the external links in a new window
