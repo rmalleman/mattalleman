@@ -34,6 +34,8 @@ theme = "hugo-octopress"
     
     tableOfContents = true
 
+    sidebarMenuHeader = "Projects"
+
 [blackfriday]
   hrefTargetBlank = true # open the external links in a new window
   fractions = false
@@ -43,4 +45,10 @@ theme = "hugo-octopress"
   Name = "Blog"
   URL = "/"
   weight = -10
+
+
+[[menu.sidebar]]
+  Name = "The Phone Locator"
+  URL = "http://www.thephonelocator.net"
+  weight = 1 
 
