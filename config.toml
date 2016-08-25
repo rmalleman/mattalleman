@@ -36,6 +36,9 @@ theme = "hugo-octopress"
 
     sidebarMenuHeader = "Projects"
 
+[permalinks]
+  post = "/:year/:month/:filename/"
+
 [blackfriday]
   hrefTargetBlank = true # open the external links in a new window
   fractions = false
